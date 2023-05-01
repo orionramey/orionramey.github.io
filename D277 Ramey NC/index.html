@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Homepage</title>
+    <!-- I need a menu that will contain these links that will be absolute on every page -->
+    <nav class="hover-sites">
+        <ul>
+            <li><a href="capital.html">Raleigh</a></li>
+            <li><a href="mountairy.html">Mount Airy</a></li>
+            <li><a href="fayetteville.html">Fayetteville</a></li>
+            <li id="Z1">NC</li>
+        </ul>
+    </nav>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<img src="images/NC Flag.jpg" alt="NC flag" style="width:100%;height: 300px">
+
+<body>
+    <h1>North Carolina</h1>
+
+    <!-- image -->
+    <!-- table -->
+    <!-- unordered list -->
+    <!-- ordered list -->
+    <section id="P1">
+        <p>I was lucky enough to be born in this great state. However, I did not realize how wonderful it was until I
+            moved around the US and spent time in other places. Now I often ponder on eventually moving back to the
+            place I couldn't await to escape when I was younger.<br>The pages of this website are correlated with the
+            cities I have spent most of my time in North Carolina. I grew up in Mount Airy and eventually lived in
+            Fayetteville for 4 years when I was in the Army. Raleigh is the state capitol and home to many prestigious
+            universities.</p>
+    </section>
+
+    <div>
+        <style>
+            table,
+            tr,
+            th {
+                margin-left: 0px;
+                margin-right: 0px;
+                color: beige;
+                border: 1px solid lavender;
+            }
+        </style>
+        <TABLE WIDTH="100%">
+            <tr>
+                <th>Housing</th>
+                <th>United States</th>
+                <th>State</th>
+            </tr>
+            <tr>
+                <th>Median Home Value</th>
+                <th>$334,269</th>
+                <th>$300,640</th>
+            </tr>
+            <tr>
+                <th>Median Rent</th>
+                <th>$2,008</th>
+                <th>$1,900</th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+<div class="knowleft">
+    <h3 class="knowhead">Known for..</h3>
+    <ol class="knowbulk">
+        <li>North Carolina is ranked 7th in education in America</li>
+        <ul>
+            <li>Home to many great universities such as UNC Chapel Hill, Duke, etc...</li>
+        </ul>
+        <br>
+        <li>The Wright Brothers completed their first flight in Kitty Hawk</li>
+        <ul>
+            <li>Ohio tries to claim the Wright brothers as they were born there, however their aviation accomplishments
+                and pioneering was completed in NC</li>
+        </ul>
+        <br>
+        <li>North and South Carolina were once combined and one of the orginial 13 colonies</li>
+        <ul>
+            <li>North Carolina seperated from South Carolina and became the 12th state</li>
+        </ul>
+    </ol>
+</div>
+<!-- ordered list with data from rubric -->
+<div class="releright">
+    <h3 class="relehead">Relevant Information</h3>
+    <ul class="relebulk">
+        <li>Population: 10,698,973</li>
+        <li>Average household income: $60,516 (2021) </li>
+        <li>City was founded in: 1789</li>
+        <li>Region: Apalacian Mountains/East Coast</li>
+        <li>NC is very diverse with mountain ranges to the West and the ocean to the East</li>
+        <aside>
+            <a href="https://www.census.gov/quickfacts/fact/table/mountairycitynorthcarolina,fayettevillecitynorthcarolina,raleighcitynorthcarolina/PST045222"
+                target="_blank">Click here to find more statistics</a>
+        </aside>
+    </ul>
+</div>
+<!--Area to input information and request information-->
+
+<div id="H2">
+    <h3>Inquiry about more information</h3>
+    <form>
+        <label for="firstn">First name:</label>
+        <input type="text" id="firstn" name="firstn">
+        <label for="lastn">Last name: </label>
+        <input type="text" id="lastn" name="lastn">
+        <br>
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email">
+        <label for="email2">Verify email</label>
+        <input type="text" id="email2" name="email2">
+        <br>
+        <label for="question">Tells us about what you are interested in</label>
+        <input size="50" type="text" id="question" name="question">
+        <br>
+        <input type="submit" value="submit" onclick="validateEmail()">
+
+    </form>
+    <!-- This will be my baby javascript to validate email adddress -->
+    <script>
+        function validateEmail() {
+            var email = document.getElementById("email").value;
+            var email2 = document.getElementById("email2").value;
+
+            if (email !== email2) {
+                alert("Email does not match");
+                return false;
+            }
+        }
+    </script>
+</div>
+<div class="L1">
+    <h2 id="R1">References</h2>
+    <p> https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FNorth-Carolina-Flag-5x8-Nylon%2Fdp%2FB007ICBELM&psig=AOvVaw0TPn-yJPLiXhE-_9aU5snY&ust=1682454173746000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjTla2sw_4CFQAAAAAdAAAAABAw
+    </p>
+    <p>https://www.zillow.com/home-values/102001/united-states/</p>
+    <p>https://www.census.gov/quickfacts/fact/table/NC,fayettevillecitynorthcarolina/PST045222</p>
+</div>
+
+</html>
+
+
+<!--link to img of flag  https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FNorth-Carolina-Flag-5x8-Nylon%2Fdp%2FB007ICBELM&psig=AOvVaw0TPn-yJPLiXhE-_9aU5snY&ust=1682454173746000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjTla2sw_4CFQAAAAAdAAAAABAw -->
+<!--https://www.zillow.com/home-values/102001/united-states/-->
+<!--I need to make a form to enter
+firts name
+last name
+email address
+email verification
+a place to type question
+include javascript code that verifies emails match for verification
+site images used for each page-->

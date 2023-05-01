@@ -1,0 +1,155 @@
+.hover-sites ul {
+    position: relative;
+    list-style: none;
+    background: orangered;
+    padding: 60p;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.hover-sites li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.hover-sites a {
+    text-decoration-line: none;
+    color: beige;
+    width: 100px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hover-sites li:hover {
+    background-color: lightseagreen;
+}
+
+body {
+    position: absolute;
+    background-color: lightseagreen;
+}
+
+title {
+    color: blueviolet;
+}
+
+h1 {
+    color: beige;
+    border: 2px solid lavender;
+    font-family;
+    text-align: center;
+}
+
+.knowleft {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.knowbulk {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.releright {
+    float: right;
+    width: 50%;
+}
+
+.relehead {
+    text-align: center;
+}
+
+.relebulk {
+    text-align: left;
+    padding-left: 25%;
+
+}
+
+h3 {
+    color: beige
+}
+
+table,
+th,
+td {
+    margin-left: 150px;
+    margin-right: 100px;
+    color: beige;
+    border: 2px solid lavender;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#A1 {
+    float: right;
+    width: 49%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+
+}
+
+#A2 {
+    float: left;
+    width: 49%;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-left: 1%;
+    display: block;
+    background-color: lightgrey;
+}
+
+#Z1 {
+    color: white;
+    font-weight: bolder;
+    float: right;
+}
+
+#Z1:hover {
+    background-color: orangered;
+}
+
+#P1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+#H1 {
+    margin-left: 25%;
+
+}
+
+#H2 {
+    margin-top: 20%;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: block;
+    background-color: lightgrey;
+
+}
+
+.L1 {
+    color: black;
+    border: 2px solid lavender;
+    text-align: center;
+    font-style: italic;
+}
+
+#R1 {
+    clear: both;
+    color: white;
+    padding-bottom: 1%;
+    text-align: center;
+    text-decoration: underline;
+
+}
